@@ -16,11 +16,9 @@ export const MainLayout: FC <Props> = ({ children, title }) => {
         <meta name="description" content={`Informacion sobre el pokemon ${ title }`}  />
         <meta name="keywords" content={`${title} ,pokemon, pokedex`}  />
       </Head>
-
       <NavBar />
-
       <main>
-        <Container>
+        <Container lg>
           { children }
         </Container>
       </main>
