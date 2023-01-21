@@ -1,6 +1,7 @@
 import Head from "next/head"
 import { FC, PropsWithChildren } from "react"
 import { Container } from '@nextui-org/react'
+import { NavBar } from '../ui';
 
 interface Props extends PropsWithChildren {
   title?: string
@@ -16,7 +17,7 @@ export const MainLayout: FC <Props> = ({ children, title }) => {
         <meta name="keywords" content={`${title} ,pokemon, pokedex`}  />
       </Head>
 
-      {/* Navbar */}
+      <NavBar />
 
       <main>
         <Container>
