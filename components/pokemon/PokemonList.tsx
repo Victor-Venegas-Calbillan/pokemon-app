@@ -1,6 +1,6 @@
 import { Grid } from '@nextui-org/react';
 import { FC } from 'react';
-import { SmallPokemon } from '../../interfaces/pokemon-list';
+import { SmallPokemon } from '../../interfaces';
 import { PokemonCard } from './';
 
 interface Props{
