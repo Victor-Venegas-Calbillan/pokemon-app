@@ -4,10 +4,6 @@
   width="25%" 
 />
 <img
-  src="https://blog.theodo.com/static/ba2166b279b234c4824d1c2fb299ced2/a79d3/ts_logo.png"
-  width="30%"
->
-<img
   src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/800px-International_Pok%C3%A9mon_logo.svg.png"
   width="30%"
 >
