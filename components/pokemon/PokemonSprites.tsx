@@ -1,12 +1,22 @@
 import { Pokemon } from "@/interfaces";
+import { localFavorites } from "@/utils";
 import { Button, Card, Container, Image, Text } from "@nextui-org/react";
-import { FC } from "react";
+import { FC, useEffect } from "react";
 
 interface Props {
   pokemon: Pokemon;
 }
 
 export const PokemonSprites: FC<Props> = ({ pokemon }) => {
+
+  const onToggleFavorite = () => {
+    localFavorites.toggleFavorite(pokemon.id)
+  };
+
+  useEffect(() => {
+  }, [])
+  
+
   return (
     <Card isHoverable css={{ p: '20px' }}>
       <Card.Header
@@ -19,7 +29,11 @@ export const PokemonSprites: FC<Props> = ({ pokemon }) => {
         <Text h1 transform='capitalize'>
           {pokemon.name}
         </Text>
-        <Button color='gradient' ghost>
+        <Button 
+          color='gradient' 
+          ghost
+          onClick={ onToggleFavorite }
+        >
           Guardar en Favoritos
         </Button>
       </Card.Header>
