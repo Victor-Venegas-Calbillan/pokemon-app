@@ -1,38 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<center>
+<img 
+  src="https://blog.logrocket.com/wp-content/uploads/2020/11/Nextjs-logo.png"
+  width="25%" 
+/>
+<img
+  src="//cdn.shopify.com/s/files/1/0609/2639/4596/articles/que-es-typescript-1658755532025_a26b7ddb-0828-4d85-ae5e-ead9bd56e05d.jpg?v=1660163380"
+  width="30%"
+>
+<img
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/800px-International_Pok%C3%A9mon_logo.svg.png"
+  width="30%"
+>
+</center>
+<hr />
 
-## Getting Started
+# Descripción del proyecto
+Este proyecto se dedica a mostrar los primeros 151 pokemons (la 1ra generación) y mostrar todos los datos sobre esto, tanto ataques, tipos, su forma nomal y shining.
 
-First, run the development server:
+Este proyecto fue construido con __next js + typescript__, tambien se incluyeron libreíras de diseño como __next ui__, en este proyecto se utiliza el __Static Site Generation__ para que al momento de generar el build de producción esta genere de forma estática las páginas de cada uno de los pokemons
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## Instalación
+### Requerimientos 
+```
+Se necesita yarn y node 
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### pasos para la instlación
+- clonar el repositorio
+- abrir la terminal y ejecutar el comando
+```
+yarn
+```
+- luego ejecutar el comando
+```
+yarn dev
+```
+- navegar al localhost:3000 para ver la web
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
