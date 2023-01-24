@@ -4,7 +4,7 @@
   width="25%" 
 />
 <img
-  src="//cdn.shopify.com/s/files/1/0609/2639/4596/articles/que-es-typescript-1658755532025_a26b7ddb-0828-4d85-ae5e-ead9bd56e05d.jpg?v=1660163380"
+  src="https://blog.theodo.com/static/ba2166b279b234c4824d1c2fb299ced2/a79d3/ts_logo.png"
   width="30%"
 >
 <img
@@ -22,7 +22,8 @@ Este proyecto fue construido con __next js + typescript__, tambien se incluyeron
 ## Instalación
 ### Requerimientos 
 ```
-Se necesita yarn y node 
+ - yarn  
+ - node 
 ```
 
 ### pasos para la instlación
