@@ -1,3 +1,5 @@
-export * from './PokemonList'
+export * from './FavoriteCardPokemon'
+export * from './FavoritePokemons'
 export * from './pokemonCard'
+export * from './PokemonList'
 export * from './PokemonSprites'
