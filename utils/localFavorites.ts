@@ -7,10 +7,17 @@ const toggleFavorite = (id: number) => {
   : favorites.push(id)
 
   localStorage.setItem('favorites', JSON.stringify(favorites))
+}
+
+const existPokemonInFavorites = ( id: number ): boolean => {
+  
+  const favorites: number[] = JSON.parse( localStorage.getItem('favorites') || '[]' );
+  return favorites.includes(id);
 } 
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   toggleFavorite,
+  existPokemonInFavorites
 }
