@@ -8,7 +8,7 @@ export const PokemonCard:FC<SmallPokemon> = ({id, image, name}) => {
   const router = useRouter();
 
   const onClick = () => {
-    router.push(`/pokemon/${id}`)
+    router.push(`/name/${ name }`)
   }
   return (
     <Grid xs={12} sm={6} md={4} xl={3}>
