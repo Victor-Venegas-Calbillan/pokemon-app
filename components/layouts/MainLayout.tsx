@@ -22,6 +22,12 @@ export const MainLayout: FC <Props> = ({ children, title }) => {
         <meta property="og:title" content={`Informacion sobre ${ title }`} />
         <meta property="og:description" content={`Esta es la página sobre ${ title } `} />
         <meta property="og:image" content={`${origin}/img/banner.png`} />
+        <meta name="twitter:card" content="summary"  />
+        <meta name="twitter:site" content="@ChinoHdp"  />
+        <meta name="twitter:title" content={`Informacion sobre ${ title }`}  />
+        <meta name="twitter:description" content={`Esta es la página sobre ${ title } `}  />
+        <meta name="twitter:image" content={`${origin}/img/banner.png`}  />
+        <meta name="twitter:image:alt" content={`Esta es la página sobre ${ title }`}  />
       </Head>
       <NavBar />
       <main>
